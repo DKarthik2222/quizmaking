@@ -28,5 +28,5 @@ saveHighScore = (e) => {
 
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
-    window.location.assign('/quizmaking/index.html');
+    window.location.assign('/quizmaking/home.html');
 }
