@@ -25,7 +25,7 @@ let questions = [];
 // })
 
 // fetching from remote api
-fetch("https://8a1feddc-efa6-483b-9ef8-e3ef314346df.mock.pstmn.io/finalquiz").then(res => {
+fetch("https://opentdb.com/api.php?amount=10&category=11&difficulty=easy&type=multiple").then(res => {
     return res.json();
 }).then(loadedQuestions => {
     console.log(loadedQuestions.results);
